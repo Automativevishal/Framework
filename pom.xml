@@ -95,11 +95,8 @@
             <version>3.2.5</version>
             <configuration>
                 <suiteXmlFiles>
-                    <suiteXmlFile>MasterSuit.xml</suiteXmlFile>
+                    <suiteXmlFile>login.xml</suiteXmlFile>
                 </suiteXmlFiles>
-                <systemPropertyVariables>
-                    <BrowserName>${BrowserName}</BrowserName>
-                </systemPropertyVariables>
             </configuration>
         </plugin>
 

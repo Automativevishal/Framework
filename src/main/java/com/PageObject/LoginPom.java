@@ -14,7 +14,7 @@ public class LoginPom {
 	private WebElement text_pass;
 	
 	@FindBy(how=How.XPATH,using=("//button[@id='loginbutton']"))
-	private WebElement button_lohin;	
+	private WebElement button_login;	
 	
 	
 	public WebElement gettext_emailid() {
@@ -27,9 +27,9 @@ public class LoginPom {
 		return text_pass;
 	}
 	
-	public WebElement getbutton_lohin() {
+	public WebElement getbutton_login() {
 		
-		return button_lohin;
+		return button_login;
 	}
 }
 

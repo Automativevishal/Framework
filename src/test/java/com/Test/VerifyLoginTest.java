@@ -20,7 +20,7 @@ public class VerifyLoginTest extends BaseClass{
 		
 		Library.custom_sendkeys(login.gettext_emailid(), exel.getstringdata("Sheet1", 0, 0), "email");
 		Library.custom_sendkeys(login.gettext_pass(), exel.getstringdata("Sheet1", 0, 1), "password");
-		Library.custom_click(login.getbutton_lohin(), "login");
+		Library.custom_click(login.getbutton_login(), "login");
 		//Assert.assertTrue(false);
 	}
 	
